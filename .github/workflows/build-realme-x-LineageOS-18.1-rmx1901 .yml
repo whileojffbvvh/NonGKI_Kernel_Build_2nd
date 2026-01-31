@@ -7,7 +7,7 @@ on:
 env:
   # Device env
   DEVICE_NAME : "realme x"
-  DEVICE_CODENAME : "RMX1901"
+  DEVICE_CODENAME : "RMX1901_defconfig"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
